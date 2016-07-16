@@ -4,7 +4,6 @@ const async = require('async');
 const validator = require('validator');
 const request = require('request');
 
-
 /**
  * GET /api
  * Request a Guide`
