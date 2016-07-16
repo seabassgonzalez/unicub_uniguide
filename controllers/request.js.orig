@@ -1,0 +1,20 @@
+'use strict';
+const _ = require('lodash');
+const async = require('async');
+const validator = require('validator');
+const request = require('request');
+<<<<<<< HEAD
+
+=======
+>>>>>>> abf896e59393df655d5e9e8bda30586188c3ce72
+
+/**
+ * GET /api
+ * Request a Guide`
+ */
+exports.getApi = (req, res) => {
+  res.render('api/index', {
+    title: 'Request a Guide'
+  });
+};
+
