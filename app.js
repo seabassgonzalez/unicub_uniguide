@@ -29,7 +29,7 @@ dotenv.load({ path: '.env.example' });
  */
 const homeController = require('./controllers/home');
 const userController = require('./controllers/user');
-const apiController = require('./controllers/api');
+const requestController = require('./controllers/request');
 const contactController = require('./controllers/contact');
 
 /**
